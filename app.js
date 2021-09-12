@@ -49,5 +49,3 @@ form.addEventListener('submit', event => {
   renderScore()
   animateScore()
 })
-
-
