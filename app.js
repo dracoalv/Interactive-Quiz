@@ -4,7 +4,7 @@ const finalScoreContainer = document.querySelector('.final-score-container')
 const correctAnswers = ['C', 'C', 'D', 'A']
 
 // pontuação
-let score = 1
+let score = 0
 
 // calcula a pontuação do usuário
 const calculateUserAnswers = () => correctAnswers.map((_, index) => {
